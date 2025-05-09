@@ -1,4 +1,10 @@
 
+person = {
+    name: "Bill",
+    age: 25
+
+}
+
 function uppg4() {
   
     // deklarera ett objekt med namnet person
@@ -6,7 +12,13 @@ function uppg4() {
     // tilldela age 25
     // skriv ut med dotnotation åldern i konsolen
 
+    
+  
+    return console.log(person.age);
+
 
 }
+
+uppg4();
 
 module.exports = { uppg4 };
